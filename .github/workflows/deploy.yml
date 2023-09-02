@@ -14,20 +14,6 @@ jobs:
 
    
     steps:
-<<<<<<< HEAD
-
-- uses: actions/heroku@1.0.0
-        - name: GitHub Action for Heroku    
-        - run: |
-            heroku login
-
-          env:
-            CI: true
-
-  - name: Check out code
-  uses: actions/checkout@v2
-=======
->>>>>>> 5311fac30afd6caa4e792cafdb8f956e4020fb4e
 
     - name: Check out code
       uses: actions/checkout@v2
