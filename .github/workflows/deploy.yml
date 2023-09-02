@@ -11,6 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+- uses: actions/heroku@1.0.0
+        - name: GitHub Action for Heroku    
+        - run: |
+            heroku login
+
+          env:
+            CI: true
+
   - name: Check out code
   uses: actions/checkout@v2
 
